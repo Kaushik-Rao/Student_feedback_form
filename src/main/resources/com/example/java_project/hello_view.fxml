@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="312.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_project.HelloController">
+   <children>
+      <Button layoutX="255.0" layoutY="176.0" mnemonicParsing="false" onAction="#fill_form" text="Student Login" />
+      <Button layoutX="258.0" layoutY="225.0" mnemonicParsing="false" onAction="#admin_login" text="Admin Login" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="150.0" layoutY="51.0" prefHeight="18.0" prefWidth="298.0" text="Feedback Form" textAlignment="CENTER" textFill="#d23737">
+         <font>
+            <Font name="Batang" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

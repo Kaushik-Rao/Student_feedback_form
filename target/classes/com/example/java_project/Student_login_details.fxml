@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_project.StudentLoginDetails">
+   <children>
+      <TextField layoutX="179.0" layoutY="108.0" promptText="Enter student name" />
+      <TextField layoutX="179.0" layoutY="158.0" promptText="Register number" />
+      <ComboBox fx:id="branch" layoutX="178.0" layoutY="208.0" prefWidth="150.0" promptText=" Branch" />
+      <Button layoutX="248.0" layoutY="338.0" mnemonicParsing="false" text="Enter response" />
+   </children>
+</AnchorPane>

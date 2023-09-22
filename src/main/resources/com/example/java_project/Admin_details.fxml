@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_project.AdminDetails">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Admin Details" />
+      <Button layoutX="517.0" layoutY="361.0" mnemonicParsing="false" onAction="#logout" text="Log out" />
+      <Button layoutX="89.0" layoutY="79.0" mnemonicParsing="false" onAction="#view_responses" text="View responses" />
+      <Button layoutX="89.0" layoutY="127.0" mnemonicParsing="false" onAction="#updateAdmin" prefHeight="49.0" prefWidth="126.0" style="-fx-background-color: ffff;" text="Update Admin">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
